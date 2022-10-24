@@ -1,1 +1,2 @@
-
+1. The bug was the two variables num1 and num2 are both type string so when the expression "result = num1 + num2" is executed, that is the concatenation between two strings, thus if num1 is entered as 1 and num2 is entered as 3, result is "13" instead 4. 
+2. I would try to fix this bug by convert the two variables num1 and num2 to numerica values by using parseFloat() to both num1 and num2 to convert those into numeric values. 
