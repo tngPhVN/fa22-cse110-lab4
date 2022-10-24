@@ -83,6 +83,10 @@
 
 15.  == checks equality with type conversion thus  two variables have two different types, one will be converted to the other and then compare. While === checks the equality without type conversion thus 2 and '2' are two different types, it immediately returns false. 
 
+16. part2-question16.js 
+    
 17.  The result is we have the newArr as [2,4,6]. Inside the function modifyArray that takes in two arguments, the array [1,2,3] and the function doSomething, the loop will executed. At line 4, callback will call the doSomething function that gives us the result 1*2=2 and then it is pushed to the newArr. The event continues untill the loop finishes we then have the final array newArr [2,4,6]. 
 
+18. part2-question18.js 
+    
 19.  The program prints out 1 first and 4 next, 3 third and waits for 1 second, then finally prints 2. 
